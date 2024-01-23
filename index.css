@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    cursor: pointer;
+	font-family:sans-serif;
+}
+header{
+    display: flex;
+	justify-content: space-between;
+    background-color: black;
+	padding: 15px 20px;
+	color: #fff;
+    position: fixed;
+    width: 100%;
+
+}
+span{
+color: orange;
+}
+nav li{
+	display: inline-block;
+	margin: 10px 20px;
+	font-weight: 600;
+}
+button{
+    border-color: orange;
+    padding: 1%;
+    color: #fff;
+    background-color: black;
+}
+button:hover{
+    background-color: orange;
+}
+.card-section{
+    height: 90vh;
+    background:linear-gradient(rgb(0,0,0),rgb(0,0,0));
+    background-image: url(image/b&w.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.parent{
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+    padding: 10%;
+    
+}
+.position{
+    display:flex;
+    justify-content: center;
+    padding:5%;
+    font-size: larger;
+}
+.press{
+    padding:0.5%;
+}
+.card{
+    display:flex;
+}
+.card1{
+    width:50%;
+    padding:8%;
+    color: rgb(72, 69, 69)
+}
+.oxygen-regular {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:1%;
+  }
+  .sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding:1%;
+  }
+  .list{
+    padding:2%;
+  }
+  .pic{
+    
+	padding: 100px;
+	margin-top: 3%;
+    margin-right: 20%;
+    
+  }
+  .links{
+        
+        position: relative;
+  }
+  .link{
+      opacity: 0;
+      position: absolute;
+      left:50%;
+      top:50% ; 
+      transition: 2s linear;
+  }
+  .link i{
+    font-size:30px ;
+    color:#fff ;
+  }
+  .links:hover .link{
+    opacity: 1;
+    
+  }
+  .symbol{
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+    padding:4%;
+    font-size: 300%;
+    color:coral;
+
+  }
+
+  .symbol:hover{
+        color:orange;
+  }
+
+  .third{
+    display: flex;
+    justify-content: space-between;
+      
+  }
+  .form{
+    padding:15%;
+    width: 50%;
+    font-size: x-large;
+  }
+  .map{
+    
+    width:50%;
+  }
+
+  
+  
+  
